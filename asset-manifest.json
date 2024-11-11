@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/-repository-sites/static/css/main.3482c826.css",
+    "main.js": "/-repository-sites/static/js/main.58d16f4a.js",
+    "static/js/453.1407b060.chunk.js": "/-repository-sites/static/js/453.1407b060.chunk.js",
+    "static/media/cursoFeito.PNG": "/-repository-sites/static/media/cursoFeito.1c9216c997f9b6ebd4fa.PNG",
+    "static/media/cinemania.PNG": "/-repository-sites/static/media/cinemania.d298377106361e6622d8.PNG",
+    "static/media/pizzariaZ.PNG": "/-repository-sites/static/media/pizzariaZ.cc8a32e9d53e630e68d0.PNG",
+    "static/media/landingPage.PNG": "/-repository-sites/static/media/landingPage.80a8b8af305cc68114ff.PNG",
+    "static/media/tarefa.PNG": "/-repository-sites/static/media/tarefa.243081e7f8b6122ccae4.PNG",
+    "static/media/frontEnd.PNG": "/-repository-sites/static/media/frontEnd.56c5aea6bc663ca9aafd.PNG",
+    "static/media/landingPage2.PNG": "/-repository-sites/static/media/landingPage2.abb20d1a72c2776ade20.PNG",
+    "static/media/perfilUtfpr.jpeg": "/-repository-sites/static/media/perfilUtfpr.db7b18e4318df04db974.jpeg",
+    "static/media/custos.PNG": "/-repository-sites/static/media/custos.77cb2f172c848186465f.PNG",
+    "index.html": "/-repository-sites/index.html",
+    "main.3482c826.css.map": "/-repository-sites/static/css/main.3482c826.css.map",
+    "main.58d16f4a.js.map": "/-repository-sites/static/js/main.58d16f4a.js.map",
+    "453.1407b060.chunk.js.map": "/-repository-sites/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3482c826.css",
+    "static/js/main.58d16f4a.js"
+  ]
+}
