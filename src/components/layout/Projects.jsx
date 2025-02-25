@@ -16,9 +16,10 @@ function Projects() {
       <h2 className={styles.title}>Meus Projetos</h2>
 
       <p className={styles.descTitle}>
-        Abaixo estão os projetos que desenvolvi e as tecnologias utilizadas durante o processo. Se quiser saber mais sobre
-        eles, é só clicar no projeto, e você será direcionado para o GitHub. Lá
-        você poderá ver o código fonte e o link do projeto em execução.
+        Abaixo estão os projetos que desenvolvi e as tecnologias utilizadas
+        durante o processo. Se quiser saber mais sobre eles, é só clicar no
+        projeto, e você será direcionado para o GitHub. Lá você poderá ver o
+        código fonte e o link do projeto em execução.
       </p>
 
       <div className={styles.containerProjects}>
