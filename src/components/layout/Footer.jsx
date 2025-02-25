@@ -9,8 +9,8 @@ function Footer() {
     <footer>
       <p>Meu portfólio particular.</p>
       <p>
-        <FaCopyright className={styles.copyright} /> Criador por Danrlei{" "}
-        <span>2024</span>.
+        <FaCopyright className={styles.copyright} /> Criador por: <span>Danrlei Vieira,
+        2024</span>.
       </p>
     </footer>
   );

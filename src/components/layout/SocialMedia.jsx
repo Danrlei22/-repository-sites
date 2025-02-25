@@ -50,7 +50,7 @@ function SocialMedia() {
 
         <div className={styles.containerEmail}>
           <MdEmail className={styles.iconEmail} />
-          <p>E-mail:danrlei_vieira@hotmail.com</p>
+          <p className={styles.email}>Email:danrlei_vieira@hotmail.com</p>
         </div>
       </div>
     </section>

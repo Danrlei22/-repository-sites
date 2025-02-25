@@ -28,7 +28,7 @@ function Sobre() {
       </p>
       <p>
         <span>Linguagens de programação</span> (em ordem de uso): HTML, CSS,
-        React, JavaScript, C, C#, Python, Node.js, C++ e PHP.
+        React, JavaScript, Node.js, C, C#, Python, C++ e PHP.
       </p>
 
       <hr />

@@ -2,8 +2,8 @@
   background-color: #282c34;
   width: 100%;
   height: auto;
-  padding: 1em;
-  min-width: 530px;
+  padding: 0.5em;
+  min-width: 350px;
 }
 
 .sociaisMedia h2 {
@@ -16,7 +16,7 @@
 }
 
 .iconLinkedin {
-  color: #0A66C2;
+  color: #0a66c2;
 }
 
 .iconInstagram {
@@ -24,8 +24,7 @@
 }
 
 .iconWhatssapp {
-  color: #25D366;
-
+  color: #25d366;
 }
 
 .icons {
@@ -34,7 +33,6 @@
 }
 
 .listIcons {
-
   margin: 0.5em auto;
   display: flex;
   justify-content: center;
@@ -61,15 +59,36 @@
   color: white;
 }
 
-.containerEmail{
-  display: grid;
-  grid-template-columns: 10% 90%;
-  width: 60%;
-  padding: auto;
+.containerEmail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .iconEmail {
   color: white;
   display: flex;
   justify-self: end;
+}
+
+.containerEmail .email{
+  font-size: 20px;
+}
+
+@media (max-width: 678px){
+  .icons{
+    margin: 5px;
+  }
+
+  .sociaisMedia h2 {
+    font-size: 20px;
+  }
+
+  .iconEmail{
+    font-size: 20px;
+  }
+
+  .containerEmail .email{
+    font-size: 15px;
+  }
 }
