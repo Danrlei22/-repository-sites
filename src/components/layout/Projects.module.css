@@ -4,27 +4,30 @@
   justify-content: space-around;
   margin: 2em 4em;
   background-color: #000;
+  border-radius: 5px solid black;
+  min-width: 350px;
+  gap: 1em;
+  padding: 1em;
 }
 
 .containerProjects .project{
-  max-width: 600px;
   text-align: center;
   background-color: #61DAFB;
-  margin: 5px;
   border:  2px solid black;
   border-radius: 10px;
 }
 
 .containerProjects .project img{
   width: 500px;
-  height: 500px;
-  object-fit: cover;
+  height: 300px;
+  object-fit: fill;
   margin: 5px;
+  border: 3px solid black;
 }
 
 .containerProjects .project h2{
   margin: 5px;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .containerProjects .project p{
@@ -35,7 +38,7 @@
 .title{
   margin: 0.5em auto;
   text-align: center;
-  font-size: 45px;
+  font-size: 40px;
   text-shadow: 3px 3px 3px #FFF;
   color: #000;
 }
@@ -43,10 +46,35 @@
 .descTitle{
   margin: 0 4.5em;
   text-align: center;
-  font-size: 25px;
+  font-size: 22px;
   color: #FFF;
   border: 2px solid black;
   padding: 0.5em;
   background-color: #282c34;
+}
 
+@media (max-width: 678px) {
+  .title{
+    font-size: 30px;
+  }
+
+  .descTitle{
+    margin: 0 10px;
+    padding: 5px;
+    font-size: 16px;
+  }
+
+  .containerProjects .project img{
+    width: 250px;
+    height: 150px;
+  }
+
+  .containerProjects {
+    margin: 0;
+  }
+
+  .desc{
+    width: 260px;
+    margin: 0 auto;
+  }
 }

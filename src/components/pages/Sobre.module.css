@@ -1,10 +1,10 @@
-.skills h1 {
+.skillsH1{
     font-size: 35px;
     color: white;
     text-align: center;
 }
 
-.skills h2 {
+.skillsH2{
     font-size: 25px;
     color: #61DAFB;
     text-align: center;
@@ -15,7 +15,7 @@
     text-align: center;
 }
 
-.skills h3{
+.skillsH3{
     font-size: 18px;
     margin: 0.5em 2em;
 }
@@ -39,4 +39,15 @@ span{
 
 .skills ul li{
     margin: 0.5em 0;
+}
+
+@media (max-width: 600px){
+    .skillsH1{
+        font-size: 25px;
+    }
+
+    .skillsH2{
+        font-size: 20px;
+        margin-bottom: 0.5em;
+    }
 }

@@ -1,25 +1,23 @@
-import Styles from './Welcome.module.css';
+import styles from "./Welcome.module.css";
 
-import perfilUtpr from '../../assets/image/perfilUtfpr.jpeg'
+import perfilUtpr from "../../assets/image/perfilUtfpr.jpeg";
 
-import Sobre from '../pages/Sobre';
-
-
+import Sobre from "../pages/Sobre";
 
 function Welcome() {
-    return (
-        <section className={Styles.welcome}>
-            <div className={Styles.container}>
-                <div className={Styles.left}>
-                    <img src={perfilUtpr} alt="Imagem de terno de perfil" />
-                </div>
+  return (
+    <section className={styles.welcome}>
+      <div className={styles.container}>
+        <div className={styles.left}>
+          <img src={perfilUtpr} alt="Imagem de terno de perfil" />
+        </div>
 
-                <div className={Styles.right}>
-                    <Sobre />
-                </div>
-            </div>
-        </section >
-    );
+        <div className={styles.right}>
+          <Sobre />
+        </div>
+      </div>
+    </section>
+  );
 }
 
 export default Welcome;
